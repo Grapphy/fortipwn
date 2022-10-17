@@ -37,6 +37,5 @@ pub async fn is_vulnerable(
         .text()
         .await?;
 
-    println!("res: {}", response);
     Ok(response.contains("SSH key is good"))
 }
