@@ -6,16 +6,16 @@ Uploads an SSH public key into authorized_keys, allowing an attacker to SSH into
 
 # Usage
 ```console
-./fortipwn <hosts.txt> <id_rsa.pub>
+$ ./fortipwn <hosts.txt> <id_rsa.pub>
 ```
 
 # Build
 ```console
-git clone https://github.com/Grapphy/fortipwn/
-cd fortipwn
-cargo build --release
-cd target/release/
-./fortipwn <host.txt> <id_rsa.pub>
+$ git clone https://github.com/Grapphy/fortipwn/
+$ cd fortipwn
+$ cargo build --release
+$ cd target/release/
+$ ./fortipwn <host.txt> <id_rsa.pub>
 ```
 
 # Output
