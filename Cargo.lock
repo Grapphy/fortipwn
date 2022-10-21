@@ -109,7 +109,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "fortinet_devices"
+name = "fortipwn"
 version = "0.1.0"
 dependencies = [
  "futures",
